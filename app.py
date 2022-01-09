@@ -1,7 +1,3 @@
-# Create another file for the dictionary itself. All operations work on the file itself
-# the add options will work becaue it works on a persistent data store, a file
-
-
 from flask import Flask, request
 import json
 from classes import AutoCompleteIndex, IncrementalAutoCompleteSearch
